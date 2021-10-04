@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <h1> hello Harshavallamkonda</h1>
-      <h2> Welcome {username}</h2>
+      <h2> Welcome {username} Hope You are Doing Great Today</h2>
       <ChatWindow sendMessage={sendMessage}/>
       {messages.map((message) => (
         <Message text={message} />
